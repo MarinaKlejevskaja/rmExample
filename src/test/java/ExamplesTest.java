@@ -67,15 +67,15 @@ public class ExamplesTest {
 //        Assertions.assertEquals(expected, actual);
     }
 
-    static Character createBethMytholog() {
-
-        return Character.builder()
-                .id(40)
-                .name("Beth's Mytholog")
-                .status("Dead")
-                .species("Mythological Creature")
-                .type("Mytholog")
-                .gender("Female")
-                .build();
-    }
+//    static Character createBethMytholog() {
+//
+//        return Character.builder()
+//                .id(40)
+//                .name("Beth's Mytholog")
+//                .status("Dead")
+//                .species("Mythological Creature")
+//                .type("Mytholog")
+//                .gender("Female")
+//                .build();
+//    }
 }

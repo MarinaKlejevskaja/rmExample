@@ -6,20 +6,20 @@ import lombok.*;
 import java.util.List;
 import java.util.Objects;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 @AllArgsConstructor //constructor with all fields
 @NoArgsConstructor // constructor with no fields
 @Builder // constructor with required fields
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class Character {
-    Integer id;
-    String name;
-    String status;
-    String species;
-    String type;
-    String gender;
-    List<String> episode;
-    Origin origin;
-    Location location;
+    public Integer id;
+    public String name;
+    public String status;
+    public String species;
+    public String type;
+    public String gender;
+    public List<String> episode;
+    public Origin origin;
+    public Location location;
 
     @Override
     public String toString() {

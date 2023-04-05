@@ -12,11 +12,11 @@ import java.util.Objects;
 @Getter
 @Builder
 public class Episode {
-    Long id;
-    String name;
-    String air_date;
-    String episode;
-    List<String> characters;
+    public Long id;
+    public String name;
+    public String air_date;
+    public String episode;
+    public List<String> characters;
 
     @Override
     public String toString() {
